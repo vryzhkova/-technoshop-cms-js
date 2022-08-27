@@ -1,10 +1,10 @@
 const openModal = (modal, classOpen) => {
     modal.classList.add(classOpen);
-}
+};
 
 const closeModal = (modal, classOpen) => {
     modal.classList.remove(classOpen);
-}
+};
 
 export const  modalController = ({ modal, btn, classOpen, classClose}) => {
     btn.addEventListener('click', () => {
